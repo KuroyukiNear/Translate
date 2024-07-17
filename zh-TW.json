@@ -1,0 +1,152 @@
+{
+    "deleted_log": {
+      "embed_title": "{user} 在 {guild} 刪除了一條訊息",
+      "embed_description": "{user_mention} **|** {channel_mention}",
+      "embed_f1_name": "內容",
+      "embed_f1_value": "{message_content}",
+      "embed_f2_name": "ID",
+      "embed_f2_value": "```\n 頻道 = {channel_id} \n 用戶 = {user_id} \n 訊息 = {message_id} \n```"
+    },
+  
+    "edited_log": {
+      "embed_title": "{user} 在 {guild} 編輯了一條訊息",
+      "embed_description": "{user_mention} **|** {channel_mention} **|** {msg_link}",
+      "embed_f1_name": "原訊息",
+      "embed_f1_value": "{message_before_content}",
+      "embed_f2_name": "編輯訊息",
+      "embed_f2_value": "{message_after_content}",
+      "embed_f3_name": "ID",
+      "embed_f3_value": "```\n Channel = {channel_id} \n User = {user_id} \n Message = {message_id} \n```"
+    },
+    "watched_words": {
+      "embed_title": "Watched Word Detected from {authorName} in {guildName}",
+      "embed_description": "{message_author_mention} **|** {msg_link}",
+      "embed_f1_name": "Content",
+      "embed_f1_value": "{message_content}",
+      "embed_f2_name": "ID",
+      "embed_f2_value": "```\n Guild = {guildID} \n Channel = {channelID} \n User = {authorID} \n Message = {messageID} \n```"
+    },
+    "voice_join": {
+      "embed_title": "{user} joined 🔈{after_channel}",
+      "embed_description": "{user_mention} **|** {after_channel_guild} **|** {after_channel_mention}",
+      "embed_f1_name": "ID",
+      "embed_f1_value": "```\n Channel = {after_channel_id}} \n User = {user_id} \n```"
+    },
+    "voice_leave": {
+      "embed_title": "{user} left 🔈{channel}",
+      "embed_description": "{user_mention} **|** {{before_channel_guild}} **|** {before_channel_mention}\nDuration: {duration_str}",
+      "embed_f1_name": "ID",
+      "embed_f1_value": "```\n Channel = {before_channel_id} \n User = {user_id} \n```"
+    },
+    "voice_switch": {
+      "embed_title": "{user} switched from :speaker:{before_channel} to :speaker:{after_channel}",
+      "embed_description": "{user_mention} **|** {after_channel_guild}",
+      "embed_f1_name": "ID",
+      "embed_f1_value": "```\n Before_Channel = {before_channel_id} \n After_Channel = {after_channel_id} \n User = {user_id} \n```"
+    },
+    "commands": {
+      "info_prompt": "`/info` for more info about Iris",
+      "error_usernotfound": "***ERROR*** User **{user}** not found.",
+      "run_command_again": "**ERROR** Please run the command again.",
+  
+      "hello": "Hello!",
+      "choose": "**[** {choice} **|** {choice2} **]** \n{IRISchoose}",
+      "ping": "{latency}ms",
+  
+      "join": "Connected to {channel_mention}",
+      "leave": "Disonnected from {channel_mention}",
+  
+      "feedback": "Your feedback has been received!",
+      "report": "User reported!",
+  
+      "profile_title": "{username}'s Profile",
+      "profile_description": "User #{user_number}",
+      "profile_f1_name": "Badges",
+      "profile_f2_name": "RixCoins",
+      "profile_f3_name": "Bio",
+      "profile_newuser": "User has just been registered. Please use `/profile` again.",
+  
+      "bio": "Your bio has been changed.\nNote: if `/profile` is not working after you changed your bio, you have probably exceeded the character limit.",
+  
+      "balance_title": "{username}'s Balance",
+      "balance_description": "Networth: `{rix}`RC",
+      "balance_f1_name": "Wallet",
+      "balance_f1_value": "`{wrix}`RC",
+      "balance_f2_name": "Bank",
+      "balance_f2_value": "`{brix}`RC",
+  
+      "transfer": "Transfered `{amount}`RC to {member_name}. Your remaining balance is `{new_transferer_rix}`RC",
+      "transfer_own": "***ERROR*** You can't transfer to yourself.",
+      "transfer_transferernotfound": "***ERROR*** User **{transferer_name}** not found.",
+      "transfer_receivernotfound": "***ERROR*** User **{member_name}** not found.",
+      "transfer_usernotenough": "You do not have enough balance.",
+  
+      "deposit": "Deposited `{amount}`RC to bank. Your remaining wallet balance is `{new_wallet}`RC",
+      "deposit_notenough": "You do not have enough balance.",
+      "deposit_notfound": "***ERROR*** User **{ctx_user_name}** not found.",
+  
+      "withdraw": "Withdrawn `{amount}`RC from bank. Your remaining bank balance is `{new_bank}`RC",
+      "withdraw_notenough": "You do not have enough balance.",
+  
+      "work": "You worked hard and earned `{result}`RC",
+      "work_cooldown": "You are on cooldown. Please wait {remaining_time} seconds.",
+  
+      "inventory_title": "{ctx_user_name}'s Inventory",
+      "inventory_empty": "Your inventory is empty.",
+      "inventory_footer": "Page {page} | Total Items: {total_items}",
+  
+      "item_itemnotfound": "**ERROR** Item not found.",
+      "item_notsellable": "Not Sellable",
+      "item_notbuyable": "Not Buyable",
+      "item_f1_name": "Description",
+      "item_f2_name": "ID",
+      "item_f3_name": "Rarity",
+      "item_f4_name": "Category",
+      "item_f5_name": "Buy Price",
+      "item_f6_name": "Sell Price",
+      "itemlist_title": "Item List",
+      "itemlist_footer": "Page {page}/{total_pages} | Total Items: {total_items}",
+  
+      "status_title": "{username}'s Status",
+      "status_description" : "User #{usernumber}",
+      "status_f1_name": "Total Earned",
+      "status_f1_value": "`{total_earned}`",
+      "status_f2_name": "Total Spent",
+      "status_f2_value": "`{total_spent}`",
+      "status_f3_name": "Total Transfered",
+      "status_f3_value": "`{total_transfered}`",
+      "status_f4_name": "Total Received",
+      "status_f4_value": "`{total_received}`",
+      "status_f5_name": "Peak Wealth",
+      "status_f5_value": "`{peak_wealth}`",
+      "status_f6_name": "Commands Issued",
+      "status_f6_value": "`{user_commands_issued}`",
+  
+      "book": "`{book_name}` has been added to the library.\n\n*Note: Our staff reserves the rights to ban anyone from using Iris for spam writing books.*",
+      "book_nametoolong": "The title of the book can't be more than 16 characters.",
+      "book_contenttoolong": "The content of the book can't be more than 800 characters.",
+  
+      "booklist_none": "No books found.",
+      "booklist_title": "Iris' Library",
+      "booklist_footer": "Page {page}/{total_pages} | {total_books} Books",
+      "booklist_value": "**Book ID** `{book_id_rightjustified}`\n**{user_display_name} | **`{author_id}`",
+  
+      "viewbook_f1_name": "Author",
+      "viewbook_f1_value": "{user_display_name} `{book_author}`",
+      "viewbook_f2_name": "Content",
+      "viewbook_f2_value": "{book_content}",
+      "viewbook_footer": "Book {book_id} out of {total_books} books",
+      "viewbook_booknotfound": "Book not found",
+  
+      "randombook_f1_name": "Author",
+      "randombook_f1_value": "{user_display_name} `{book_author}`",
+      "randombook_f2_name": "Content",
+      "randombook_f2_value": "{book_content}",
+      "randombook_footer": "Book {book_id} out of {total_books} books",
+  
+      "leaderboard_title": "RixCoin Leaderboard",
+      "leaderboard_f1_name": "#{rank} {user_obj_name}",
+      "leaderboard_f1_value": "**{total_balance}**"
+    }
+  }
+  
