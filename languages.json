@@ -1,0 +1,23 @@
+[
+  {
+    "name": "en-US",
+    "nativeName": "English",
+    "wikiCode": "en",
+    "default": true,
+    "contributors": "Near"
+  },
+  {
+    "name": "zh-TW",
+    "nativeName": "繁體中文",
+    "wikiCode": "zh-TW",
+    "default": false,
+    "contributors": 0
+  },
+  {
+    "name": "ja-JP",
+    "nativeName": "日本語",
+    "wikiCode": "ja-JP",
+    "default": false,
+    "contributors": 0
+  }
+]
